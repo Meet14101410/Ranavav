@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+struct TownProfile {
+    std::string name = "Ranavav";
+    std::string type = "Nagarpalika (Municipality)";
+    std::string district = "Porbandar";
+    std::string landmark = "Jambuvant Caves";
+    int pincode = 360550;
+};
+
+int main() {
+    TownProfile ranavav;
+    
+    std::cout << "--- Town Identity: " << ranavav.name << " ---\n";
+    std::cout << "Admin Type: " << ranavav.type << "\n";
+    std::cout << "District:   " << ranavav.district << "\n";
+    std::cout << "Landmark:   " << ranavav.landmark << "\n";
+    std::cout << "Post Code:  " << ranavav.pincode << std::endl;
+    
+    return 0;
+}
