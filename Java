@@ -1,0 +1,17 @@
+public class RanavavDetails {
+    private final String name = "Ranavav";
+    private final String district = "Porbandar";
+    private final String economy = "Minerals and Limestone";
+
+    public void printProfile() {
+        System.out.println("Ranavav City Profile");
+        System.out.println("--------------------");
+        System.out.println("Name:     " + name);
+        System.out.println("District: " + district);
+        System.out.println("Economy:  " + economy);
+    }
+
+    public static void main(String[] args) {
+        new RanavavDetails().printProfile();
+    }
+}
