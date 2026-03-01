@@ -1,0 +1,16 @@
+def show_ranavav_profile():
+    profile = {
+        "Name": "Ranavav",
+        "District": "Porbandar",
+        "State": "Gujarat",
+        "Admin_Level": "Taluka",
+        "Pincode": 360550,
+        "Nearby_Attraction": "Barda Hills Wildlife Sanctuary"
+    }
+
+    print(f"--- Quick Statistics: {profile['Name']} ---")
+    for key, value in profile.items():
+        print(f"{key:18}: {value}")
+
+if __name__ == "__main__":
+    show_ranavav_profile()
