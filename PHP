@@ -1,0 +1,16 @@
+<?php
+$ranavav_info = [
+    "name" => "Ranavav",
+    "district" => "Porbandar",
+    "status" => "Taluka Headquarters",
+    "pincode" => 360550,
+    "famous_for" => ["Cement Industry", "Limestone Mining", "Jambuvant Cave"]
+];
+
+echo "<h2>Exploring " . $ranavav_info['name'] . "</h2>";
+echo "<ul>";
+echo "<li><strong>District:</strong> " . $ranavav_info['district'] . "</li>";
+echo "<li><strong>Postal Code:</strong> " . $ranavav_info['pincode'] . "</li>";
+echo "<li><strong>Famous For:</strong> " . implode(", ", $ranavav_info['famous_for']) . "</li>";
+echo "</ul>";
+?>
